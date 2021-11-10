@@ -1,7 +1,6 @@
 .contact {
   display: flex;
   align-items: center;
-  margin-bottom: 5px;
 }
 .name {
   display: inline-block;

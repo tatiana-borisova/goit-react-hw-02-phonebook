@@ -7,7 +7,7 @@ const ContactList = ({ contacts, onClick }) => (
   <div className={s.contacts}>
     <ul>
       {contacts.map(contact => (
-        <li key={contact.id}>
+        <li key={contact.id} className={s.contact}>
           <Contact data={contact} onClick={onClick} />
         </li>
       ))}

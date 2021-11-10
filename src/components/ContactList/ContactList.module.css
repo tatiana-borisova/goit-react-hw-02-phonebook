@@ -3,3 +3,9 @@
   justify-content: center;
   align-items: center;
 }
+.contact {
+  padding: 5px 0;
+}
+.contact:not(:last-child) {
+  border-bottom: 1px solid rgb(168, 168, 168);
+}
