@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import shortid from 'shortid';
-import PropTypes from 'prop-types';
 import s from './Form.module.css';
 
 const INITIAL_STATE = {
@@ -67,17 +66,5 @@ class Form extends Component {
     );
   }
 }
-
-Form.defaultProps = {
-  name: '',
-  number: '',
-  value: '',
-};
-
-Form.propTypes = {
-  name: PropTypes.string.isRequired,
-  number: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
-};
 
 export default Form;
