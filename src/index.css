@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://st2.depositphotos.com/1678626/5803/v/600/depositphotos_58035375-stock-illustration-blank-exercise-book-paper-sheet.jpg);
+  background-size: cover;
 }
 
 code {
